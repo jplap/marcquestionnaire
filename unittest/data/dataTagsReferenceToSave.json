@@ -1,0 +1,18 @@
+{
+
+    "tags": [
+      {
+        "id": "idfaible",
+        "name": "faible"
+      },
+      {
+        "id": "idmoyen",
+        "name": "moyen"
+      },
+      {
+        "id": "idfort",
+        "name": "fort"
+      }
+    ]
+
+}

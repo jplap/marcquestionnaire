@@ -1,0 +1,179 @@
+{
+  "rules": [
+    {
+      "questionnaireId": "qid1",
+      "label": "engagement",
+      "scores": [
+        {
+          "score": 1,
+          "tagId": "TagIdEngagement_1-2"
+        },
+        {
+          "score": 2,
+          "tagId": "TagIdEngagement_1-2"
+        },
+        {
+          "score": 3,
+          "tagId": "TagIdEngagement_3-4"
+        },
+        {
+          "score": 4,
+          "tagId": "TagIdEngagement_3-4"
+        },
+        {
+          "score": 5,
+          "tagId": "TagIdEngagement_5-6"
+        },
+        {
+          "score": 6,
+          "tagId": "TagIdEngagement_5-6"
+        },
+        {
+          "score": 7,
+          "tagId": "TagIdEngagement_7-8"
+        },
+        {
+          "score": 8,
+          "tagId": "TagIdEngagement_7-8"
+        },
+        {
+          "score": 9,
+          "tagId": "TagIdEngagement_9-10"
+        },
+        {
+          "score": 10,
+          "tagId": "TagIdEngagement_9-10"
+        }
+      ]
+    },
+    {
+      "questionnaireId": "qid2",
+      "label": "La gestion du stress",
+      "scores": [
+        {
+          "score": 1,
+          "tagId": "TagIdStress_1-5"
+        },
+        {
+          "score": 2,
+          "tagId": "TagIdStress_1:5"
+        },
+        {
+          "score": 3,
+          "tagId": "TagIdStress_1:5"
+        },
+        {
+          "score": 4,
+          "tagId": "TagIdStress_1:5"
+        },
+        {
+          "score": 5,
+          "tagId": "TagIdStress_1-5"
+        },
+        {
+          "score": 6,
+          "tagId": "TagIdStress_6-10"
+        },
+        {
+          "score": 7,
+          "tagId": "TagIdStress_6-10"
+        },
+        {
+          "score": 8,
+          "tagId": "TagIdStress_6-10"
+        },
+        {
+          "score": 9,
+          "tagId": "TagIdStress_6-10"
+        },
+        {
+          "score": 10,
+          "tagId": "TagIdStress_6-10"
+        }
+      ]
+    },
+    {
+      "questionnaireId": "qid3",
+      "label": "La preparation",
+      "scores": [
+        {
+          "score": 1,
+          "tagId": "TagIdPreparation_1-5"
+        },
+        {
+          "score": 2,
+          "tagId": "TagIdPreparation_1:5"
+        },
+        {
+          "score": 3,
+          "tagId": "TagIdPreparation_1:5"
+        },
+        {
+          "score": 4,
+          "tagId": "TagIdPreparation_1:5"
+        },
+        {
+          "score": 5,
+          "tagId": "TagIdPreparation_1-5"
+        },
+        {
+          "score": 6,
+          "tagId": "TagIdPreparation_6-10"
+        },
+        {
+          "score": 7,
+          "tagId": "TagIdPreparation_6-10"
+        },
+        {
+          "score": 8,
+          "tagId": "TagIdPreparation_6-10"
+        },
+        {
+          "score": 9,
+          "tagId": "TagIdPreparation_6-10"
+        },
+        {
+          "score": 10,
+          "tagId": "TagIdPreparation_6-10"
+        }
+      ]
+    }
+  ],
+  "tagTable": [
+
+    {
+      "tagId": "TagIdStress_1-5", "label": "faible"
+    },
+    {
+      "tagId": "TagIdStress_6-10", "label": "fort"
+    },
+
+    {
+      "tagId": "TagIdPreparation_1-5", "label": "faible"
+    },
+    {
+      "tagId": "TagIdPreparation_6-10", "label": "fort"
+    },
+
+
+
+
+
+    {
+      "tagId": "TagIdEngagement_1-2", "label": "faible"
+    },
+    {
+      "tagId": "TagIdEngagement_3-4", "label": "faible"
+    },
+    {
+      "tagId": "TagIdEngagement_5-6", "label": "moyen"
+    },
+    {
+      "tagId": "TagIdEngagement_7-8", "label": "fort"
+    },
+    {
+      "tagId": "TagIdEngagement_9-10", "label": "fort"
+    }
+
+  ]
+}

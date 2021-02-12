@@ -1,0 +1,22 @@
+{
+  "types": [
+    {
+
+      "name": "link"
+    },
+    {
+
+      "name": "text"
+    },
+    {
+
+      "name": "json"
+    },
+    {
+
+      "name": "img"
+    }
+  ]
+}
+
+

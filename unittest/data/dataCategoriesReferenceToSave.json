@@ -1,0 +1,15 @@
+{
+  "categories": [
+    {
+
+      "name": "Stress",
+      "img": "stress.jpg"
+    },
+    {
+
+      "name": "Engagement",
+      "img": "Engagement.jpg"
+    }
+
+  ]
+}
