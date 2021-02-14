@@ -55,7 +55,7 @@ test('publish tags reference', function (t) {
     var body = {"type":"tags"};
     body.data = JSON.parse(dataTagsReferenceToSave);
     request(app)
-        .post("/service/admin/publish")
+        .post("/service/backend/admin/publish")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -69,7 +69,7 @@ test('publish tags reference', function (t) {
 test('refresh tags reference', function (t) {
     var arg = {"type":"tags"}
     request(app)
-        .post("/service/admin/refresh")
+        .post("/service/backend/admin/refresh")
         .send(arg)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -95,7 +95,7 @@ test('publish part type  reference', function (t) {
     var body = {"type":"parttypes"};
     body.data = JSON.parse(dataPartTypesReference);
     request(app)
-        .post("/service/admin/publish")
+        .post("/service/backend/admin/publish")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -109,7 +109,7 @@ test('publish part type  reference', function (t) {
 test('refresh part type  reference', function (t) {
     var arg = {"type":"parttypes"}
     request(app)
-        .post("/service/admin/refresh")
+        .post("/service/backend/admin/refresh")
         .send(arg)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -135,7 +135,7 @@ test('publish categories reference', function (t) {
     var body = {"type":"categories"};
     body.data = JSON.parse(dataCategoriesReferenceToSave);
     request(app)
-        .post("/service/admin/publish")
+        .post("/service/backend/admin/publish")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -149,7 +149,7 @@ test('publish categories reference', function (t) {
 test('refresh categories reference', function (t) {
     var arg = {"type":"categories"}
     request(app)
-        .post("/service/admin/refresh")
+        .post("/service/backend/admin/refresh")
         .send(arg)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -174,7 +174,7 @@ test('publish data', function (t) {
     var body = {"type":"datas"};
     body.data = JSON.parse(dataSample1ToSave);
     request(app)
-        .post("/service/admin/publish")
+        .post("/service/backend/admin/publish")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -187,7 +187,7 @@ test('publish data', function (t) {
 test('refresh data', function (t) {
     var body = {"type":"datas"}
     request(app)
-        .post("/service/admin/refresh")
+        .post("/service/backend/admin/refresh")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -239,7 +239,7 @@ test('publish datas categories tags', function (t) {
     console.log("body: " + JSON.stringify(JSON.parse(JSON.stringify(body))));
 
     request(app)
-        .post("/service/admin/publish")
+        .post("/service/backend/admin/publish")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
@@ -254,7 +254,7 @@ test('publish datas categories tags', function (t) {
 test('refresh all datas: datas categories tags', function (t) {
     let body = null;
     request(app)
-        .post("/service/admin/refresh")
+        .post("/service/backend/admin/refresh")
         .send(body)
         .expect('Content-Type', /json/)
         .expect(200)
